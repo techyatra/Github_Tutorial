@@ -1,0 +1,14 @@
+E:\s+q\Github_Tutorial\bin\Debug\netcoreapp3.0\Github_Tutorial.exe
+E:\s+q\Github_Tutorial\bin\Debug\netcoreapp3.0\Github_Tutorial.deps.json
+E:\s+q\Github_Tutorial\bin\Debug\netcoreapp3.0\Github_Tutorial.runtimeconfig.json
+E:\s+q\Github_Tutorial\bin\Debug\netcoreapp3.0\Github_Tutorial.runtimeconfig.dev.json
+E:\s+q\Github_Tutorial\bin\Debug\netcoreapp3.0\Github_Tutorial.dll
+E:\s+q\Github_Tutorial\bin\Debug\netcoreapp3.0\Github_Tutorial.pdb
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.csproj.AssemblyReference.cache
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.GeneratedMSBuildEditorConfig.editorconfig
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.AssemblyInfoInputs.cache
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.AssemblyInfo.cs
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.csproj.CoreCompileInputs.cache
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.dll
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.pdb
+E:\s+q\Github_Tutorial\obj\Debug\netcoreapp3.0\Github_Tutorial.genruntimeconfig.cache

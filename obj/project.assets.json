@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anshu\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anshu\\OneDrive\\Documents\\GitHub\\Github_Tutorial\\Github_Tutorial.csproj",
+      "projectUniqueName": "E:\\s+q\\Github_Tutorial\\Github_Tutorial.csproj",
       "projectName": "Github_Tutorial",
-      "projectPath": "C:\\Users\\anshu\\OneDrive\\Documents\\GitHub\\Github_Tutorial\\Github_Tutorial.csproj",
-      "packagesPath": "C:\\Users\\anshu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anshu\\OneDrive\\Documents\\GitHub\\Github_Tutorial\\obj\\",
+      "projectPath": "E:\\s+q\\Github_Tutorial\\Github_Tutorial.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "E:\\s+q\\Github_Tutorial\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
