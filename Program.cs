@@ -7,7 +7,8 @@ namespace Github_Tutorial
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Nishant Gupta!");
-            Console.WriteLine("Hello Nishant Gupta!");
+            Console.WriteLine("Anshul Prajapati!");
+            Console.WriteLine("Anshul Prajapati!");
         }
     }
 }
