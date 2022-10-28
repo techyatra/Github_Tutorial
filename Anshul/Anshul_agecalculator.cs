@@ -7,71 +7,110 @@ namespace Github_Tutorial.Anshul
 {
     public class Age
     {
-        public int current_date = 27;
-        public int current_month = 10;
-        public int current_year = 2022;              // Query -> Const access in main , Public because it is needed in main
-        int result_date, result_month, result_year;
-
-        public void logic(int date, int month, int year, int month_day, int total_month)
+       public void TakeInputFromUsers()
         {
-            if (current_month <= month && current_date < date)
-            {
-                result_year = current_year - year - 1;
-
-                if (current_month == month)
-                {
-                    result_month = total_month - month + current_month - 1;
-                }
-                else
-                {
-                    result_month = total_month - month + current_month;
-                }
-
-                result_date = month_day - date + current_date;
-
-                Console.WriteLine($"You are {result_year} years {result_month} months {result_date} days old");
-            }
-
-            else if (current_month >= month && current_date > date)
-            {
-                result_year = current_year - year;
-
-                if (current_month == month)
-                {
-                    result_month = 0;
-                }
-                else
-                {
-                    result_month = current_month - month;
-                }
-
-                result_date = current_date - date;
-                Console.WriteLine($"You are {result_year} years {result_month} months {result_date} days old");
-            }
-
-            else if (current_month < month && current_date > date)
-            {
-                result_year = current_year - year - 1;
-                result_month = total_month - month + current_month;
-                result_date = current_date - date;
-                Console.WriteLine($"You are {result_year} years {result_month} months {result_date} days old");
-            }
-
-            else if (current_month > month && current_date < date)
-            {
-                result_year = current_year - year;
-                result_month = current_month - month - 1;
-                result_date = month_day - date + current_date;
-                Console.WriteLine($"You are {result_year} years {result_month} months {result_date} days old");
-            }
-
-            else
-            {
-                result_year = current_year - year;
-                Console.WriteLine($"You are {result_year} years {result_month} months {result_date} days old");
-            }
-
+            Console.Write("Enter your birth date : ");
+            int birthDate = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your birth month : ");
+            int birthMonth = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your birth year : ");
+            int birthYear = Convert.ToInt32(Console.ReadLine());
+            int currentYear = DateTime.Now.Year;  
+            int currentMonth = DateTime.Now.Month;
+            int currentDay = DateTime.Now.Day;
+            DateMonthYearValidation(birthDate, birthMonth, birthYear, currentYear);
+            AgeInYears(birthYear, currentYear);
+            AgeInMonths(birthMonth, birthYear, currentMonth, currentYear);
         }
-    }     
-}
+
+        public void DateMonthYearValidation(int birthDate, int birthMonth, int birthYear, int currentYear)
+        {
+            if (birthYear > currentYear)
+                throw new Exception("Birth year can not be greater than current year");
+            if (birthMonth > 12 || birthMonth < 0)
+                throw new Exception("Invalid birth month");
+            if (birthDate < 0 || birthDate > 31)
+                throw new Exception("Invalid birth date");
+            if (birthDate == 31 && (birthMonth == 2 || birthMonth == 4 || birthMonth == 6 || birthMonth == 9
+                || birthMonth == 11))
+                throw new Exception("Invalid birth date");
+        }
+
+        public int DaysInMonth(int month, int year)
+        {
+            int month_day = 0;
+            switch (month)
+            {
+                case 1:
+                    month_day = 31;
+                    break;
+                // To find a year is leap simply divide by 4 if remainder 0 then it is leap 
+                case 2:
+                    if (year % 4 == 0)       
+                    {
+                        month_day = 29;
+                    }
+                    else
+                    {
+                        month_day = 28;
+                    }
+                    break;
+                case 3:
+                    month_day = 31;
+                    break;
+                case 4:
+                    month_day = 30;
+                    break;
+                case 5:
+                    month_day = 31;
+                    break;
+                case 6:
+                    month_day = 30;
+                    break;
+                case 7:
+                    month_day = 31;
+                    break;
+                case 8:
+                    month_day = 31;
+                    break;
+                case 9:
+                    month_day = 30;
+                    break;
+                case 10:
+                    month_day = 31;
+                    break;
+                case 11:
+                    month_day = 30;
+                    break;
+                case 12:
+                    month_day = 31;
+                    break;
+                default:
+                    Console.WriteLine("Please enter valid Month number and again restart the program...");
+                    break;
+            }
+            return month_day;
+        }
+
+        public void AgeInYears(int birthYear, int currentYear)
+        {
+            int ageInYears = currentYear - birthYear;
+            Console.WriteLine("your age in year is " + ageInYears);
+        }
+        public void AgeInMonths(int birthMonth, int birthYear, int currentMonth, int currentYear)
+        {
+            int ageInMonths = ((currentYear - birthYear) - 2) + currentMonth + (12 - birthMonth + 1);
+            Console.WriteLine("your age in months is  " + ageInMonths);
+        }
+        public void AgeInDays()
+        {
+            // complete this function
+        }
+
+
+
+    }
+    }  
+    
+
 
