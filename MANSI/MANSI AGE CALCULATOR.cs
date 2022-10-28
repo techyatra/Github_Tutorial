@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Github_Tutorial.MANSI
 {
-        class MANSI_AGE_CALCULATOR
+      public  class MANSI_AGE_CALCULATOR
     {
-        static void Main(String[] args)
+        public void AgeCalc(String[] args)
         {
             int bdate, bmonth, byear, cdate, cmonth, cyear, date, month, year;
 

@@ -6,7 +6,7 @@ namespace Github_Tutorial.Swati
 {
     internal class swati_age_calculate
     {
-        static void Main(string[] args)
+        static void Age_Calc(string[] args)
         {
             int bd, bm, by, cd, cm, cy, dd, mm, yy;
             //int year, month, day;
