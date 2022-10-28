@@ -6,7 +6,5 @@ namespace Github_Tutorial.abhishek
 {
     class age_calculatorabhi
     {
-
-      
     }
 }
