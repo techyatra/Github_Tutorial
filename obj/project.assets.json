@@ -8,16 +8,11 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\HP\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\anshu\\.nuget\\packages\\": {}
->>>>>>> 62dd355679d322de165f076ba0514f2df4dfc645
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "E:\\s+q\\Github_Tutorial\\Github_Tutorial.csproj",
       "projectName": "Github_Tutorial",
       "projectPath": "E:\\s+q\\Github_Tutorial\\Github_Tutorial.csproj",
@@ -26,16 +21,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\anshu\\OneDrive\\Documents\\GitHub\\Github_Tutorial\\Github_Tutorial.csproj",
-      "projectName": "Github_Tutorial",
-      "projectPath": "C:\\Users\\anshu\\OneDrive\\Documents\\GitHub\\Github_Tutorial\\Github_Tutorial.csproj",
-      "packagesPath": "C:\\Users\\anshu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anshu\\OneDrive\\Documents\\GitHub\\Github_Tutorial\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\anshu\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 62dd355679d322de165f076ba0514f2df4dfc645
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -86,12 +71,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
->>>>>>> 62dd355679d322de165f076ba0514f2df4dfc645
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\s+q\\Github_Tutorial\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
