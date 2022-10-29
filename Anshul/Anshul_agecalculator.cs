@@ -18,9 +18,9 @@ namespace Github_Tutorial.Anshul
             int currentYear = DateTime.Now.Year;  
             int currentMonth = DateTime.Now.Month;
             int currentDay = DateTime.Now.Day;
-            DateMonthYearValidation(birthDate, birthMonth, birthYear, currentYear);
+           /* DateMonthYearValidation(birthDate, birthMonth, birthYear, currentYear);
             AgeInYears(birthYear, currentYear);
-            AgeInMonths(birthMonth, birthYear, currentMonth, currentYear);
+            AgeInMonths(birthMonth, birthYear, currentMonth, currentYear);*/
         }
 
         public void DateMonthYearValidation(int birthDate, int birthMonth, int birthYear, int currentYear)
@@ -63,7 +63,7 @@ namespace Github_Tutorial.Anshul
                     break;
                 case 5:
                     month_day = 31;
-                    break;
+                    break; 
                 case 6:
                     month_day = 30;
                     break;
@@ -103,6 +103,7 @@ namespace Github_Tutorial.Anshul
             Console.WriteLine("your age in months is  " + ageInMonths);
         }
         public void AgeInDays()
+
         {
             // complete this function
         }
