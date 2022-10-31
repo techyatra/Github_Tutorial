@@ -18,9 +18,9 @@ namespace Github_Tutorial.Anshul
             int currentYear = DateTime.Now.Year;  
             int currentMonth = DateTime.Now.Month;
             int currentDay = DateTime.Now.Day;
-           /* DateMonthYearValidation(birthDate, birthMonth, birthYear, currentYear);
+           DateMonthYearValidation(birthDate, birthMonth, birthYear, currentYear);
             AgeInYears(birthYear, currentYear);
-            AgeInMonths(birthMonth, birthYear, currentMonth, currentYear);*/
+            AgeInMonths(birthMonth, birthYear, currentMonth, currentYear);
         }
 
         public void DateMonthYearValidation(int birthDate, int birthMonth, int birthYear, int currentYear)

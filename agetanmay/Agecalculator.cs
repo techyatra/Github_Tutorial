@@ -22,20 +22,16 @@ namespace Github_Tutorial.agetanmay
             int Birth_year = Convert.ToInt32(Console.ReadLine());
         }
 
-        public void CurrentData()
+        public void CurrentDataVerification(int Birth_year,int Birth_date, int Birth_month,int Currentyear)
         {
-            int Currentdate = DateTime.Now.Day;
+            int presendate = DateTime.Now.Day;
 
-            int Currentmonth = DateTime.Now.Month;
+            int presentmonth = DateTime.Now.Month;
 
-            int Currentyear = DateTime.Now.Year;
-        }
+            int presentyear = DateTime.Now.Year;
+        
 
-
-        public void VerificationOfData(int Birth_year,int Birth_date,int Birth_month,int Currentyear)
-
-        {
-            if(Birth_year>Currentyear)
+           if(Birth_year>Currentyear)
             {
                 Console.WriteLine("this not possible so lets try again");
 
@@ -53,7 +49,7 @@ namespace Github_Tutorial.agetanmay
             }
 
 
-        }
+       }
 
         public void monthsdays(int months, int years)
         {
@@ -88,16 +84,27 @@ namespace Github_Tutorial.agetanmay
         }
 
 
-               public void UserAgeInYear(int Birth_year,int Current_year)
-                    {
-                       int Calcage = Birth_year - Current_year;
+         public void UserAgeInYear(int Birth_year,int presentyear)
+             {
+                int Calcage = Birth_year - presentyear;
                Console.WriteLine("yur age is in year is:"+Calcage);
 
                     }
 
-        public void UserAgeInDays(int Birth_month, int Currentmonth)
+              
+         public void userAgeInMonth(int Birth_year,int presentyear)
+          {
+            int Calagemonth= ((presentyear- Birth_year)*12)
+          }
+
+
+
+        public void UserAgeInDays(int Birth_month, int Currentmonth, int Currentyear, int Birth_year)
         {
-            int CalDays= ((  Currentmonth - Birth_month) 
+            int CalDays = ((Currentyear - Birth_year*12)-(12-Currentmonth)-(Birthmonth-)
+                
+
+
         }
 
 
