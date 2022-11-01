@@ -7,7 +7,9 @@ namespace Github_Tutorial
     {
         static void Main(string[] args)
         {
-
+            Age age = new Age();
+            age.TakeInputFromUsers();
+            Console.ReadKey();
         }
     }
 }
